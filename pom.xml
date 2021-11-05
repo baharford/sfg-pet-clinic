@@ -11,22 +11,14 @@
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-pet-clinic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>sfg-pet-clinic</name>
 	<description>Demo pet clinic using sfg class</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+	<dependencies>
 	</dependencies>
 
 	<build>
@@ -38,4 +30,8 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>pet-clinic-data</module>
+		<module>pet-clinic-web</module>
+	</modules>
 </project>
