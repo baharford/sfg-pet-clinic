@@ -1,9 +1,9 @@
-package services.map;
+package guru.springframework.services.map;
 
 import java.util.Set;
 
 import guru.springframework.model.Pet;
-import services.CrudService;
+import guru.springframework.services.CrudService;
 
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
 

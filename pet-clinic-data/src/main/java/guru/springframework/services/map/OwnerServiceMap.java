@@ -1,9 +1,9 @@
-package services.map;
+package guru.springframework.services.map;
 
 import java.util.Set;
 
 import guru.springframework.model.Owner;
-import services.CrudService;
+import guru.springframework.services.CrudService;
 
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
 
